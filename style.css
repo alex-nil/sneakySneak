@@ -1,90 +1,248 @@
-* {
-    margin: 0;
-    padding: 0;
-}
 
 body {
-    background-color: #1F2327;
+    background-color: white;
     width: 100%;
+    margin: 0 auto !important;
+    
 }
-
-.jumbotron-fluid {
-    background-image: url("tex3.jpg");
+.wrapper {
+    background-image: url("wall-823611.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    
-    
+}
+.jumbotron-fluid {
+    background-color:rgba(0, 0, 0, 0.9);
+    position: fixed;
+    width: 100%;
+    display: flex;
 
 }
 .jumbotron-fluid h1 {
     font-family: 'Patua One', cursive;
-    font-size: 10vh;
+    font-size: 6vh;
     padding-left: 40px;
     color: rgb(255, 255, 255);
-    background-color: rgba(0, 0, 0, 0.3);
+    
 }
 .efx {
     font-family: 'Permanent Marker', italic;
     color: #FFFFFF;
-
-text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+    text-shadow: #FFF 0px 0px 2px, #FFF 0px 0px 5px, #FFF 0px 0px 7px, rgb(255, 171, 45) 0px 0px 10px, rgb(255, 181, 45) 0px 0px 15px, rgb(255, 206, 45) 0px 0px 20px, rgb(255, 181, 45) 0px 0px 25px, rgb(255, 181, 45) 0px 0px 32px;
 }
 
-.container-fluid:nth-child(3) {
+
+
+
+/*Navbar*/
+.navbar {
+    padding-left: 30vh;
+}
+.navbar a {
     color: white;
-    text-align: center;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: white;
+    text-decoration: none;
+    font-size: 4vh;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-shadow: #FFF 0px 0px 2px, #FFF 0px 0px 5px, #FFF 0px 0px 7px, rgb(255, 171, 45) 0px 0px 10px, rgb(255, 181, 45) 0px 0px 15px, rgb(255, 206, 45) 0px 0px 20px, rgb(255, 181, 45) 0px 0px 25px, rgb(255, 181, 45) 0px 0px 32px;
 }
-.container img {
-    width: 20vh;
-    box-shadow: 5px 10px #888888;
+.navbar a:hover {
+    text-shadow: #FFF 0px 0px 2px, #FFF 0px 0px 5px, #FFF 0px 0px 7px, rgb(255, 255, 255) 0px 0px 10px, rgb(255, 255, 255) 0px 0px 15px, rgb(255, 255, 255) 0px 0px 20px, rgb(255, 255, 255) 0px 0px 25px, rgb(255, 255, 255) 0px 0px 32px;
 }
 
+
+/* theimgs of authors*/
+.col-2 {
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.col-2 img {
+    width: 15vh;
+    border: 1px solid white;
+    
+}
+.col-2 h3 {
+    color: white;
+
+}
+.col-2 p {
+    color: white;
+}
+
+/*Choose ur shoes*/
+.shoes {
+    margin-top:15%;
+    margin-right: 10%;
+    width: auto;
+    float: right;
+    text-align: center;
+    color: white;
+    height: 600px;
+
+}
+.shoes h2 {
+    color: white;
+    font-family: 'Vollkorn SC', serif;
+    font-size: 10vh;
+}
+/* The navbar at the end links*/
 ul {
     height: 100%;
 }
 
-ul li {
+
+
+/*shoe images*/
+.shoeImg {
+    margin-top: 40px;
+
+}
+#skobild {
+    border: 1px solid white;
+    background-color:rgba(0, 0, 0, 0.6);
+}
+.shoeImg img {
+    width: 20vh;
+}
+
+
+#myButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffc477), color-stop(1, #fb9e25));
+	background:-moz-linear-gradient(top, #ffc477 5%, #fb9e25 100%);
+	background:-webkit-linear-gradient(top, #ffc477 5%, #fb9e25 100%);
+	background:-o-linear-gradient(top, #ffc477 5%, #fb9e25 100%);
+	background:-ms-linear-gradient(top, #ffc477 5%, #fb9e25 100%);
+	background:linear-gradient(to bottom, #ffc477 5%, #fb9e25 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc477', endColorstr='#fb9e25',GradientType=0);
+	background-color:#ffc477;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #eeb44f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #cc9f52;
+
+}
+#myButton:hover {
+        background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #fb9e25), color-stop(1, #ffc477));
+        background:-moz-linear-gradient(top, #fb9e25 5%, #ffc477 100%);
+        background:-webkit-linear-gradient(top, #fb9e25 5%, #ffc477 100%);
+        background:-o-linear-gradient(top, #fb9e25 5%, #ffc477 100%);
+        background:-ms-linear-gradient(top, #fb9e25 5%, #ffc477 100%);
+        background:linear-gradient(to bottom, #fb9e25 5%, #ffc477 100%);
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fb9e25', endColorstr='#ffc477',GradientType=0);
+        background-color:#fb9e25;
+    }
+
+.myButton:active {
+        position:relative;
+        top:1px;
+    }
+    
+
+
+
+/*footer*/
+.container-fluid a i {
     display: inline;
     font-size: 4em;
     list-style-type: none;
     color: white;
     padding: 30px;
-
-    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
-    color: #FFFFFF;
-    
-
-    
+    text-shadow: #FFF 0px 0px 2px, #FFF 0px 0px 5px, #FFF 0px 0px 7px, rgb(255, 171, 45) 0px 0px 10px, rgb(255, 181, 45) 0px 0px 15px, rgb(255, 206, 45) 0px 0px 20px, rgb(255, 181, 45) 0px 0px 25px, rgb(255, 181, 45) 0px 0px 32px;
+    color: #FFFFFF;  
 }
-ul li:hover {
+.container-fluid a i:hover {
+    text-decoration: none;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, rgb(255, 134, 103) 0px 0px 20px, rgb(189, 63, 63) 0px 0px 30px, rgb(255, 75, 75) 0px 0px 40px, rgb(112, 16, 16) 0px 0px 50px, rgb(189, 122, 122) 0px 0px 75px;
 
-    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px,
-    #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, 
-   #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, 
-   #FF2D95 0px 0px 75px, 2px 2px 4px rgba(126,129,206,0);
-
+}
+.container-fluid a:hover {
+    text-decoration: none;
 }
 
 
 
 
+.col-4 {
+    border: 1px solid white;
+}
 
 
-
-.footer {
+#first {
+    clear: both;
+}
+/*footer*/
+.container-fluid {
     text-align: center;
-    background-image: url("tex3.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    width: 100%;
+
+}
+
+#footer {
+    padding: 20px;
+    background-color:rgba(0, 0, 0, 0.6);
+}
+
+
+
+
+
+
+/*Responsiv design*/
+@media only screen and (max-width: 1720px) {
+    .shoes {
+        margin-top:15%;
+        margin-right: 5%;
+        width: auto;
+        float: right;
+        text-align: center;
+        color: white;
+    
+    }
+    .shoes h2 {
+        color: white;
+        font-family: 'Vollkorn SC', serif;
+        font-size: 400%;
+        text-shadow: 2px 2px #000000;
+    }
+
 
 }
 
 
+
+
+@media only screen and (max-width: 1225px) {
+    .shoes {
+        margin-top:15%;
+        margin-left: 4%;
+        margin-right: 5%;
+        width: auto;
+        float: left;
+        text-align: center;
+        color: white;
+    
+    }
+    .shoes h2 {
+        color: white;
+        font-family: 'Vollkorn SC', serif;
+        font-size: 350%;
+    }
+    .navbar {
+        padding-left: 0;
+    }
+    .jumbotron-fluid {
+        display: block;
+    }
+
+}
 
